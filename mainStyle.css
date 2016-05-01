@@ -1,0 +1,76 @@
+* {
+		
+		font-family: Quicksand;
+		color: #9099A2
+			
+	}
+	
+	body {
+		
+		overflow-x:hidden;
+			
+	}
+	
+	#canvas {
+		
+		position: absolute;
+		z-index: -1;	
+		
+	}
+	
+	.header {
+		
+		font-size: 500%;
+		margin-bottom: 25px;
+			
+	}
+	
+	.social-list {
+		font-size: 1.7em;
+		list-style-type: none;
+		border-right: 1px #D5D5D5 solid
+	}
+	
+	.social-list > li{
+	
+		padding: 15px;
+	
+	}
+	
+	.content-main {
+	
+		min-width: 700px;
+		width: 700px;
+		display:block;
+	
+	}
+	
+	a:link {
+		text-decoration:none;
+	}
+
+	a:visited {
+		text-decoration:none;
+	}
+
+	a:hover {
+		text-decoration:none;
+	}
+
+	a:active {
+		text-decoration:none;
+	}
+	
+@media screen and (max-width: 720px) {
+
+    .social-list {
+		border: 0;
+		width: 100%;
+    }
+    
+    .social-list > li {
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+    }
+}
