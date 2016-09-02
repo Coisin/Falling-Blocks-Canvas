@@ -39,12 +39,10 @@
 	
 	.content-main {
 	
-		margin-top: 3em;
 		min-width: 700px;
 		width: 700px;
 		display:block;
 		border-radius: 10px;
-		transition: background 2.5s;
 	
 	}
 	
@@ -76,10 +74,4 @@
 		margin-right:auto;
 		text-align:center;
     }
-}
-
-.content-main:hover {
-	
-	background: #f5f5f0;
-	
 }
